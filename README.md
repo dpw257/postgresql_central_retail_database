@@ -103,7 +103,7 @@ The database follows a **star schema** design with the following key tables:
 
 You can execute SQL queries to extract insights from the database by modifying the `sql_queries.py` file. This file contains predefined queries, but you can add your own queries to interact with the database as needed.
 
-The files should be ran in the following order:
+The files should be run in the following order:
 - `main_code.py`: To extract, clean and save the data
 - `sql_starbased.py`: To create a starbased schema for the database, add further columns and define data types in columns
 - `sql_queries.py`: To run defined SQL queries on data
